@@ -11,7 +11,6 @@ Una especie (Especie) puede contrastarse con esta tabla para determinar si es in
 @Table(name = "catalogo_eei")
 public class CatalogoEei {
 
-    private boolean test;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
